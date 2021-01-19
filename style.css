@@ -1,0 +1,140 @@
+body {
+	background-color: white;
+	height: 100vh;
+	margin: auto;
+
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.logo{
+	width:220px;
+	height: auto;
+	margin-right: auto;
+}
+
+
+.nav{
+	list-style: none;
+}
+
+
+.nav li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+
+.nav li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+	font-family: helvertical;
+}
+
+.nav li a:hover{
+	color:  #1eaf80;
+}
+
+
+aside{
+	background-color: white;
+	flex: 1;
+
+}
+
+main{
+	background-color: white;
+	flex: 1 1 300px;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+
+.container{
+	display: flex;
+	height: 100%;
+}
+
+.categories li {
+	list-style: none;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+	padding:  20px;
+	height: auto;
+	text-align: center;
+}
+
+
+.categories li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #666;
+
+}
+
+
+aside h3{
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+.items{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 12px #ccc;
+	align-items: center;
+}
+
+.items button{
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	outline: none;
+	border:none;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.item-name{
+	font-size: 25px;
+	font-family: forte;
+	line-height: 10px;
+
+}
+
+.item-price{
+	color: #666;
+	font-size: 25px;
+}
+
+span{
+	display: flex;
+	justify-content: flex-start;
+	background-color:green;
+	color: white;
+	font-size: 18px;
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
